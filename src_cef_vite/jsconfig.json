@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "paths": {
+      "api/*": ["./src/api/*"],
+      "@/*": ["./src/*"],
+      "store/*": ["./src/store/*"],
+      "components/*": ["./src/components/*"],
+      "router": ["./src/router/index.js"],
+      "json/*": ["./src/json/*"],
+      "lang": ["./lang/index.js"]
+    }
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
+}
